@@ -9,9 +9,9 @@ app.use(express.json()); // Parse JSON body
 // MONGO DATABASE
 // const MONGODB_URL = "mongodb+srv://judedev:<db_password>@cluster0.i8vbsdc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-const MONGODB_URL = "mongodb+srv://judedev:ghghghgd@cluster0.i8vbsdc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const MONGODB_URL = "mongodb+srv://judedev:<db_password>@cluster0.i8vbsdc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-// COnnecting to MongoDB
+// Connecting to MongoDB
 
 mongoose.connect(MONGODB_URL)
 .then(()=>{
